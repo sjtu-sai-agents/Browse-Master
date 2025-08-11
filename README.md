@@ -24,7 +24,12 @@ Its **Planner–Executor** framework delivers scalable, coherent, and efficient 
 ## 📊 Experiments
 
 ### 🚀 Scaling Search Calls & Computation Efficiency
-![Scaling](./assets/scalling.PNG)
+<p align="center">
+  <img src="./assets/scalling.PNG" alt="Scaling" width="80%" />
+</p>
 
 ### 🌐 Breadth of Domains Explored
-![Domains](./assets/domains.PNG)
+
+<p align="center">
+  <img src="./assets/domains.PNG" alt="Domains" width="80%" />
+</p>
