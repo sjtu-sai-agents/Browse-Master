@@ -1,6 +1,7 @@
 # 🚀 BrowseMaster: Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair
 
-**BrowseMaster** is a next-generation LLM-based web browsing agent that addresses the shortcomings of traditional search and existing agents by uniting **broad, code-driven search** with **deep, strategic reasoning**.  
+**BrowseMaster** is a next-generation LLM-based  browsing agent that addresses the shortcomings of traditional search and existing agents by uniting **broad, code-driven search** with **deep, strategic reasoning**.  
+
 Its **Planner–Executor** framework delivers scalable, coherent, and efficient information seeking, achieving strong results on both BrowseComp and BrowseComp-ZH benchmarks.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2508.09129-b31b1b.svg)](https://arxiv.org/abs/2508.09129)
@@ -20,14 +21,14 @@ Its **Planner–Executor** framework delivers scalable, coherent, and efficient 
 ## 📖 Documentation
 
 ### Prompts and Examples
-- Detailed prompts for both planner and executor components are available in the `prompts/` directory
+- Detailed prompts for both planner and executor  are available in the `prompts/` directory
 - Sample responses from BrowseComp evaluations can be found in `logs/example.jsonl`
 
 ### Getting Started
 
 #### Prerequisites
 - For sandbox setup and code execution environment, please refer to [mcp_sandbox](https://github.com/sjtu-sai-agents/mcp_sandbox)
-- Note that we use locally deployed DeepSeek-R1-0528 model, instead of api.
+- Note that we use locally deployed DeepSeek series models, instead of api.
 
 #### Configuration
 1. Configure model endpoints in `configs/model_config.yaml`:
