@@ -9,15 +9,15 @@ To fulfill the target, you need to reason and use the following tools. We first 
 
 For specific tools to interact with web content:
 5. web_search(keywords): this function takes string keywords as input, and the output is a dict containing top 10 web information from google search engine. An output example is the following python dict:
-{
-    "tool_result": {
-                "searchParameters": {...}, 
+{{
+    "tool_result": {{
+                "searchParameters": {{...}}, 
                 "organic": [
-                    {"title": Title, "link": Link, "snippet": Short description of the content, "position": Position}, 
+                    {{"title": Title, "link": Link, "snippet": Short description of the content, "position": Position}}, 
                     ...
                 ]
-            }
-}
+            }}
+}}
 6. web_parse(link:str, query:str): this function takes the link and query as input, and will parse the web page, call an LLM to answer the query based on the page content. The answer is put in the ['tool_result']['content'] field of the output dict. This function is useful when looking into detail information of a page.
 
 To use the tools described above, you must call them by writing Python code enclosed within <code></code> tags. Then the code will be executed and you can see the output. You can write code multiple times. Similar to cells in a Jupyter notebook, any code within <code></code> blocks will be executed and cached, so you can reuse functions and variables in subsequent steps. To look at the output of the code or any variables, simply writing code to print them. 
