@@ -1,0 +1,23 @@
+planner:
+  model: deepseek-r1-0528
+  url: YOUR_PLANNER_API_URL
+  api_key: YOUR_PLANNER_API_KEY
+  generation_config:
+    max_tokens: 16384
+    temperature: 0.5
+  print: true
+
+executor:
+  model: deepseek-r1
+  url: YOUR_EXECUTOR_API_URL
+  api_key: YOUR_EXECUTOR_API_KEY
+  generation_config:
+    max_tokens: 16384
+    temperature: 0.5
+  print: true
+
+tool_executor:
+  url: YOUR_TOOL_EXECUTOR_URL
+
+template:
+  path: config/r1_tool.jinja 

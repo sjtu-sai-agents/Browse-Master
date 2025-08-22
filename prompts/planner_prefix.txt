@@ -1,0 +1,7 @@
+<think>
+Okay, to answer the user's question, I will answer user's problem by deep reasoning together with the help of executors. For example
+if I want an executor to search for entities satisfying some features, will say <task>
+search target
+</task>.
+
+Now, let me analyze the user's question. 
